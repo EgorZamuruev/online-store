@@ -5,10 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#ffc40d">
@@ -19,8 +15,8 @@
     <link rel="preload" href="fonts/CoFoSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/CoFoSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
 
-    <link rel="stylesheet" href="styles/style.min.css">
-    <title>Lomoda</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Интернет-магазин</title>
 </head>
 
 <body>
@@ -32,9 +28,7 @@
                     <p class="header__delivery">Бесконтактная доставка</p>
                     <p class="header__pay">Платите чем хотите</p>
                     <div class="header__birthday">
-                        <span>нам </span>
-                        <img class="header__birthday-img" src="image/35.svg" alt="">
-                        <span>лет!</span>
+                        <span>Нам 2 года!</span>
                     </div>
                 </div>
             </div>
@@ -51,7 +45,9 @@
                             <li class="navigation__item"><a class="navigation__link" href="goods.html#kids">Детям</a></li>
                         </ul>
                     </nav>
-                    <a href="index.html" class="subheader__logo"><img src="image/logo.svg" alt="Компания Lomoda"></a>
+                    <a href="./index.html" class="subheader__logo">
+                        <h3>Интернет-магазин</h3>  <!-- <img src="image/logo.svg" alt="Компания Lomoda"> -->
+                    </a>
                     <button class="subheader__cart">Корзина</button>
                 </div>
             </div>
@@ -178,14 +174,15 @@
                 <h3 class="footer__column-title">Помощь</h3>
                 <ul class="footer__column-list">
                     <li class="footer__column-item"><a class="footer__link" href="#">Статус заказа по номеру</a></li>
-                    <li class="footer__column-item"><a class="footer__link" href="#">Центр поддержки Lamoda</a></li>
+                    <li class="footer__column-item"><a class="footer__link" href="#">Центр поддержки Интернет-магазина</a></li>
                     <li class="footer__column-item"><a class="footer__link" href="#">Как оформить заказ</a></li>
                     <li class="footer__column-item"><a class="footer__link" href="#">Как выбрать размер</a></li>
                     <li class="footer__column-item"><a class="footer__link" href="#">Условия доставки</a></li>
                     <li class="footer__column-item"><a class="footer__link" href="#">Мои заказы</a></li>
                     <li class="footer__column-item"><a class="footer__link" href="#">Возврат</a></li>
                     <li class="footer__column-item"><a class="footer__link" href="#">Публичная оферта</a></li>
-                    <li class="footer__column-item"><a class="footer__link" href="#">Публичная оферта Lamoda Стилист</a></li>
+                    <li class="footer__column-item"><a class="footer__link" href="#">Публичная оферта Интернет-магазин Стилист</a>
+                    </li>
                     <li class="footer__column-item"><a class="footer__link" href="#">Программа лояльности</a></li>
                     <li class="footer__column-item"><a class="footer__link" href="#">Часто задаваемые вопросы</a></li>
                     <li class="footer__column-item"><a class="footer__link" href="#">Исследования</a></li>
@@ -203,17 +200,22 @@
                             <li><a target="_blank" href="#" class="footer__social-item footer__social-item_ig"></a></li>
                         </ul>
                     </li>
-                    <li class="footer__column-item"><a class="link footer__link" href="#">Fashion-блог Lamoda</a></li>
-                    <li class="footer__column-item"><a class="link footer__link" href="#">Подарочные сертификаты Lamoda</a></li>
-                    <li class="footer__column-item"><a class="link footer__link" href="#" target="_blank">Вакансии</a></li>
+                    <li class="footer__column-item"><a class="link footer__link" href="#">Fashion-блог Интернет-магазин</a></li>
+                    <li class="footer__column-item"><a class="link footer__link" href="#">Подарочные сертификаты
+                        Интернет-магазина</a></li>
+                    <li class="footer__column-item"><a class="link footer__link" href="#" target="_blank">Вакансии</a>
+                    </li>
                 </ul>
 
                 <h3 class="footer__column-title">Партнерам</h3>
                 <ul class="footer__column-list">
-                    <li class="footer__column-item"><a class="link footer__link" href="#">Подключиться к партнёрской программе "Маркетплейс"</a></li>
-                    <li class="footer__column-item"><a class="link footer__link" href="#">Стать подрядчиком Lamoda</a></li>
+                    <li class="footer__column-item"><a class="link footer__link" href="#">Подключиться к партнёрской
+                            программе</a></li>
+                    <li class="footer__column-item"><a class="link footer__link" href="#">Стать подрядчиком Интернет-магазина</a>
+                    </li>
                     <li class="footer__column-item"><a class="link footer__link" href="#">Арендодателям</a></li>
-                    <li class="footer__column-item"><a class="link footer__link" href="#">Подарочные сертификаты для бизнеса</a></li>
+                    <li class="footer__column-item"><a class="link footer__link" href="#">Подарочные сертификаты для
+                            бизнеса</a></li>
                 </ul>
             </div>
             <div class="footer__column">
@@ -239,7 +241,8 @@
                     <li><a target="_blank" class="footer__block-icon footer__icon-googleplay" href="#"></a></li>
                     <li><a target="_blank" class="footer__block-icon footer__icon-huaweistore" href="#"></a></li>
                 </ul>
-                <p class="footer__column-item footer__text">Вы также можете перейти<br>на <a href="#" class="inline-link js-mobile-version">мобильную версию сайта</a>.</p>
+                <p class="footer__column-item footer__text">Вы также можете перейти<br>на <a href="#"
+                        class="inline-link js-mobile-version">мобильную версию сайта</a>.</p>
             </div>
         </div>
     </footer>

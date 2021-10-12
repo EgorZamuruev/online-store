@@ -50,9 +50,7 @@
         align-items: center;
         background-color: #f93c00;
         max-height: 100%;
-        &-img {
-            max-height: 100%;
-        }
+        
         *:not(:last-child) {
             margin-right: 5px;
         }
